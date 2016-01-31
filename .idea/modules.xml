@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/caloriecalculator/caloriecalculator.iml" filepath="$PROJECT_DIR$/caloriecalculator/caloriecalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calorieconverter/calorieconverter.iml" filepath="$PROJECT_DIR$/calorieconverter/calorieconverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proj01.iml" filepath="$PROJECT_DIR$/proj01.iml" />
+    </modules>
+  </component>
+</project>
