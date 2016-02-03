@@ -13,8 +13,47 @@
     tools:showIn="@layout/activity_main"
     tools:context="com.example.lily.caloriecalculator.MainActivity">
 
-    <TextView
-        android:text="Hello World!"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/conversion_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/rounded_section">
+            <Spinner
+                android:id="@+id/activity_list"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/dotted_border"/>
+            <EditText
+                android:id="@+id/activity_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="0"
+                android:background="@drawable/dotted_border"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/conversion_right"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/rounded_section">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount Burned"/>
+            <TextView
+                android:id="@+id/burned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
 </RelativeLayout>
