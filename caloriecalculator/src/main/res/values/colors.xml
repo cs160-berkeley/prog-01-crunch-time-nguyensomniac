@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#f76039</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryDark">#f76039</color>
     <color name="colorAccent">#f76039</color>
     <color name="text">#314550</color>
     <color name="lighter_gray">#AEBBC3</color>
     <color name="lightest_gray">#E8EBED</color>
+    <color name="cardio">#FF6A80</color>
+    <color name="core">#3FE4BA</color>
+    <color name="upper">#7C88FF</color>
 </resources>

@@ -33,6 +33,10 @@ public enum  Exercise {
         return calRatio;
     }
 
+    public Unit getUnit()   { return unit; }
+
+    public Type getType()   { return type; }
+
     private final String name;
     private final float calRatio;
     private final Type type;

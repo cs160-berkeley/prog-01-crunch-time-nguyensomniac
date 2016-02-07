@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textColorHint">@color/lighter_gray</item>
     </style>
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -13,5 +15,24 @@
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
+    <style name="Bold">
+        <item name="fontPath">fonts/AvenirNext-Bold.ttf</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+    <style name="LargeNumerals">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAlignment">center</item>
+        <item name="fontPath">fonts/AvenirNext-Bold.ttf</item>
+    </style>
+    <style name="CapsSubHeader">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="fontPath">fonts/AvenirNext-Bold.ttf</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="CapsSubHeaderLight" parent="CapsSubHeader">
+        <item name="android:textColor">@color/lighter_gray</item>
+    </style>
 </resources>
