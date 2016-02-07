@@ -12,6 +12,6 @@ Lily Nguyen ([lcn@berkeley.edu](mailto:lcn@berkeley.edu))
 
 ## Acknowledgments
 
-* (http://pictogram2.com)[Human Pictogram] for the rad icons
-* (https://github.com/chrisjenx/Calligraphy)[Calligraphy] for easy custom fonts
+* [Human Pictogram](http://pictogram2.com) for the rad icons
+* [Calligraphy](https://github.com/chrisjenx/Calligraphy) for easy custom fonts
 * Stack Overflow, obviously
