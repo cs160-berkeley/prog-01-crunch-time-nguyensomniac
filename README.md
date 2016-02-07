@@ -1,22 +1,17 @@
 # PROG 01: Crunch Time
 
-Briefly describe your app here.
+feel the bern is a calculator that determines how many calories you’ve “berned” for many types of exercises. The app has categories for upper body exercises, cardio exercises, and core exercises so you can bern in any way possible!
 
 ## Authors
 
-FirstName LastName ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
-
-## Demo Video
-
-See [your demo video title here] (https://link_to_your_video)
+Lily Nguyen ([lcn@berkeley.edu](mailto:lcn@berkeley.edu))
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+<img src="screenshots/Screen Shot 2016-02-06 at 11.45.07 PM.png" height="400" alt="Screenshot"/>
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Any other support
-
-*Feel free to enhance your README. For Markdown syntax, see [the GitHub Guides](https://guides.github.com/features/mastering-markdown/). Remove this line in your submission.*
+* [http://pictogram2.com](Human Pictogram) for the rad icons
+* [https://github.com/chrisjenx/Calligraphy](Calligraphy) for easy custom fonts
+* Stack Overflow, obviously

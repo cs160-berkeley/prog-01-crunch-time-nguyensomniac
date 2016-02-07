@@ -36,7 +36,7 @@ public class ExerciseAdapter extends ArrayAdapter<ExerciseCalculation> {
             TextView exerciseDuration = (TextView)rowView.findViewById(R.id.exercise_duration);
             ImageView exerciseIcon = (ImageView)rowView.findViewById(R.id.exercise_icon);
             exerciseName.setText(values[position].getExercise().toString());
-            exerciseDuration.setText(Integer.toString(values[position].getDuration()) + " minutes");
+            exerciseDuration.setText(Integer.toString(values[position].getDuration()) + " " + values[position].getExercise().getUnit().toString());
             exerciseIcon.setImageResource(context.getResources().getIdentifier(values[position].getExercise().name().toLowerCase(), "drawable", context.getPackageName()));
             return rowView;
         }
